@@ -1,0 +1,1 @@
+seq 100 | awk '{printf "sleep 1 && echo 羊が%s匹\n", $1}' | bash
