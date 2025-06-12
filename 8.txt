@@ -1,0 +1,1 @@
+cat qdata/8/access.log | awk -F: '{print $(NF-2)}' | awk '$1 < 12 {print "am"} $1 >= 12 {print "pm"}' | sort | uniq -c
