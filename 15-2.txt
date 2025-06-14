@@ -1,0 +1,1 @@
+echo pen-pineapple-apple-pen | bash -c 'IFS=-; read -a w; echo "${w[*]^}"'

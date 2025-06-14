@@ -1,0 +1,1 @@
+echo I am a perfect human | bash -c 'read x; echo "${x^^}"'
