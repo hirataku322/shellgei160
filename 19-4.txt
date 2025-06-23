@@ -1,0 +1,1 @@
+(read a; echo xxxx-xxxx-9012-3456 ) < qdata/19/cardno

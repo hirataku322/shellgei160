@@ -1,0 +1,1 @@
+printf xxxx-xxxx cat qdata/19/cardno
